@@ -22,3 +22,5 @@ Console.WriteLine("\nDFS rekursiv:");
 Rekurzioni.DfsRekurziv(graf, 0);
 Console.WriteLine();
 
+
+AlgoritmeTeAvancuara.java2.Program.Run();
