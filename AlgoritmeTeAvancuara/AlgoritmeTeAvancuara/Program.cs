@@ -26,3 +26,4 @@ Console.WriteLine();
 AlgoritmeTeAvancuara.java2.Program.Run();
 AlgoritmeTeAvancuara.java3.Program.Run(new string[] {});
 AlgoritmeTeAvancuara.java3.Task2.Run();
+AlgoritmeTeAvancuara.java4.Detyra.Run();
