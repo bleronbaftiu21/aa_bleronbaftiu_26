@@ -1,0 +1,37 @@
+First, analyze the existing project structure and follow the assignment requirements. Then implement the complete solution.
+Requirements
+
+1. Use HashMap as the main data structure to efficiently track IP addresses.
+2. Use Queue/Deque to store and manage failed login attempts for each IP.
+3. Implement a Sliding Time Window to detect IP addresses with N or more failed login attempts within a configurable time interval.
+4. The time window must be inclusive, meaning attempts exactly at the window's boundary must be counted.
+5. Track failed attempts across multiple servers, combining all attempts from the same IP.
+6. Ignore SUCCESS attempts when calculating failed login counts.
+7. Automatically add an IP to the Blacklist when it reaches the threshold.
+8. Generate only one alert per IP, when it first reaches the threshold. Continue recording subsequent attempts without generating duplicate alerts.
+9. Provide a function to check whether an IP is currently blacklisted.
+10. Ensure efficient processing suitable for millions of log entries per hour.
+
+Implementation
+
+* Keep the solution simple, clean, and well-structured.
+* Separate responsibilities into appropriate classes.
+* Allow configurable threshold and time window parameters.
+* Follow the input and expected output examples in the PDF.
+* Do not add unnecessary features or overcomplicate the implementation.
+
+Testing
+Test the following:
+
+* Threshold detection.
+* Inclusive sliding time window.
+* Multiple servers for the same IP.
+* SUCCESS vs. FAIL attempts.
+* Expired attempts outside the time window.
+* Blacklist functionality.
+* No duplicate alerts.
+* Multiple different IP addresses.
+
+Final Steps
+Run the project and all tests, fix any errors, and verify that the output matches the assignment's expected output.
+Important: Focus on implementing the actual assignment correctly, especially HashMap, Deque, Sliding Time Window, and Blacklist management. Do not just provide an explanation or pseudocode.
